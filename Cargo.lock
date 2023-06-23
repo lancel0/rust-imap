@@ -397,9 +397,7 @@ dependencies = [
 
 [[package]]
 name = "imap-proto"
-version = "0.16.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f256a8086d5a408348cddb97d8a07e7d10f861067c497e850e67c9aeda014fda"
+version = "0.16.2"
 dependencies = [
  "nom",
 ]
@@ -1161,3 +1159,7 @@ name = "windows_x86_64_msvc"
 version = "0.36.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c811ca4a8c853ef420abd8592ba53ddbbac90410fab6903b3e79972a631f7680"
+
+[[patch.unused]]
+name = "tokio-imap"
+version = "0.5.0"
